@@ -75,11 +75,11 @@ To help visualize the structure of the components, please reference the below st
   - NewPaletteForm.js
     - seedColors.js
     - PaletteFormNav.js
-    - PaletteMetaForm.js
+      -PaletteMetaForm.js
       
   - ColorPickerForm.js
   - DraggableColorList.js
-  - DraggableColorBox.js
+    - DraggableColorBox.js
     
   - PaletteList.js
     - MiniPalette.js
