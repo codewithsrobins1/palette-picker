@@ -88,7 +88,7 @@ To help visualize the structure of the components, please reference the below st
     - NavBar.js
     - ColorBox.js
       - Links to SingleColorPalette.js via props
-       -Uses colorHelper.js to generate shades of a color
+        -Uses colorHelper.js to generate shades of a color
   - Page.js 
   - PaletteList (Catch/Error Routing)
   
