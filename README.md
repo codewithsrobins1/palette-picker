@@ -35,15 +35,7 @@ git clone https://github.com/codewithsrobins1/palette-picker.git
 ```
 2. Install NPM packages
 ```sh
-npm install
-npm install @material-ui/core
-npm install @material-ui/icons
-npm install @material-ui/styles
-npm install --save react-router
-npm install react-color --save
-npm install react-sortable-hoc --save
-npm install chroma-js
-npm install --save emoji-mart
+npm install i
 
 ```
 
