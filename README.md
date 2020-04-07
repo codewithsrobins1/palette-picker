@@ -75,7 +75,7 @@ To help visualize the structure of the components, please reference the below st
   - NewPaletteForm.js
     - seedColors.js
     - PaletteFormNav.js
-      -PaletteMetaForm.js
+     - PaletteMetaForm.js
       
   - ColorPickerForm.js
   - DraggableColorList.js
@@ -87,8 +87,8 @@ To help visualize the structure of the components, please reference the below st
   - Palette.js
     - NavBar.js
     - ColorBox.js
-      - Links to SingleColorPalette.js via props
-        - Uses colorHelper.js to generate shades of a color
+      -Links to SingleColorPalette.js via props
+        -Uses colorHelper.js to generate shades of a color
   - Page.js 
   - PaletteList (Catch/Error Routing)
   
