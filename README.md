@@ -1,4 +1,4 @@
-# Palette Picker
+# Palette Picker[![Netlify Status](https://api.netlify.com/api/v1/badges/568dd133-1dbb-4f32-851e-f0a9c7f1f414/deploy-status)](https://app.netlify.com/sites/palette-picker/deploys)
 
 Palette picker is a web application where users can view color schemes from a pre-set list and create their very own color palette to use. There is an option to increase the brightness or darkness of the palette using the navigation slider.
 
