@@ -4,3 +4,4 @@ Palette picker is a web application where users can view color schemes from a pr
 
 ## Demo
 
+![demo](https://github.com/codewithsrobins1/palette-picker/blob/master/readMeGif.gif?raw=true)
