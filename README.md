@@ -72,26 +72,26 @@ npm install --save emoji-mart
 To help visualize the structure of the components, please reference the below structure,
 
 - App.js
-  -NewPaletteForm.js
-    -seedColors.js
-    -PaletteFormNav.js
-      -PaletteMetaForm.js
+  - NewPaletteForm.js
+    - seedColors.js
+    - PaletteFormNav.js
+    - PaletteMetaForm.js
       
-  -ColorPickerForm.js
-  -DraggableColorList.js
-    -DraggableColorBox.js
+  - ColorPickerForm.js
+  - DraggableColorList.js
+  - DraggableColorBox.js
     
-  -PaletteList.js
-    -MiniPalette.js
+  - PaletteList.js
+    - MiniPalette.js
     
-  -Palette.js
-    -NavBar.js
-    -ColorBox.js
-      -Links to SingleColorPalette.js via props
-        -Uses colorHelper.js to generate shades of a color
-  -Page.js 
-  -PaletteList (Catch/Error Routing)
+  - Palette.js
+    - NavBar.js
+    - ColorBox.js
+      - Links to SingleColorPalette.js via props
+        - Uses colorHelper.js to generate shades of a color
+  - Page.js 
+  - PaletteList (Catch/Error Routing)
   
 ## Credit
-  * Project concept from Colt Steele's 'The Modern React Bootcamp'
+  * Final project from Colt Steele's 'The Modern React Bootcamp'
   * https://www.udemy.com/share/101YTuBEQadlpVQHg=/
