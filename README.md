@@ -48,24 +48,24 @@ npm install --save emoji-mart
 ```
 
 ## React Components
-•	App.js – Renders the application. Contains the various routes
-•	Colorbox.js – The individual color box component with the links to ‘more’ and ‘copy’ within the Palette component
-•	ColorHelpers.js – Generate the palette colors
-•	ColorPickerForm.js - Component for the form within the drawer of the 'Create a Palette' page
-•	DraggableColorBox – Individual component for each of the moveable color boxes in the create a palette page
-•	DraggableColorList – Component for the colors that can be moved and rearranged within the Create a palette form
-•	Index.js -default index.js file
-•	MiniPalette.js – The mini color boxes displayed for each of the palettes
-•	NavBar.js – Navbar component with a link to go to home page, scroll for different shades of a color, and provide a color format in hexadecimal, rgb, and rgba
-•	NewPaletteForm.js – Main Component for Palette Creation Form
-•	Page.js – Component for the page transition between routes
-•	Palette.js – Main component with all the different palette colors. Also includes Nav and Footer
-•	PaletteFooter.js – Footer component with name of palette and emoji
-•	PaletteFormNav.js – Component for the navigation bar in the palette creation form
-•	PaletteList.js – The homepage component with the entire list of palettes.
-•	PaletteMetaForm.js – Modal component that pops up after hitting ‘Save Palette’ in the PaletteFormNav
-•	seedColors.js – Houses the default palette information
-•	SingleColorPalette.js – Individual palette component with all the different shades of 1 color
+* App.js – Renders the application. Contains the various routes
+*	Colorbox.js – The individual color box component with the links to ‘more’ and ‘copy’ within the Palette component
+*	ColorHelpers.js – Generate the palette colors
+*	ColorPickerForm.js - Component for the form within the drawer of the 'Create a Palette' page
+*	DraggableColorBox – Individual component for each of the moveable color boxes in the create a palette page
+*	DraggableColorList – Component for the colors that can be moved and rearranged within the Create a palette form
+*	Index.js -default index.js file
+*	MiniPalette.js – The mini color boxes displayed for each of the palettes
+*	NavBar.js – Navbar component with a link to go to home page, scroll for different shades of a color, and provide a color format in hexadecimal, rgb, and rgba
+*	NewPaletteForm.js – Main Component for Palette Creation Form
+*	Page.js – Component for the page transition between routes
+*	Palette.js – Main component with all the different palette colors. Also includes Nav and Footer
+*	PaletteFooter.js – Footer component with name of palette and emoji
+*	PaletteFormNav.js – Component for the navigation bar in the palette creation form
+*	PaletteList.js – The homepage component with the entire list of palettes.
+*	PaletteMetaForm.js – Modal component that pops up after hitting ‘Save Palette’ in the PaletteFormNav
+*	seedColors.js – Houses the default palette information
+*	SingleColorPalette.js – Individual palette component with all the different shades of 1 color
 
 ## Component Tree
 
@@ -92,7 +92,6 @@ To help visualize the structure of the components, please reference the below st
   -Page.js 
   -PaletteList (Catch/Error Routing)
   
-  ## Credit
-  
+## Credit
   * Project concept from Colt Steele's 'The Modern React Bootcamp'
   * https://www.udemy.com/share/101YTuBEQadlpVQHg=/
