@@ -1,69 +1,89 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Palette Picker
 
-## Available Scripts
+Palette picker is a web application where users can view color schemes from a pre-set list and create their very own color palette to use. There is an option to increase the brightness or darkness of the palette using the navigation slider.
 
-In the project directory, you can run:
+## Demo
 
-### `npm start`
+![demo](https://github.com/codewithsrobins1/palette-picker/blob/master/readMeGif.gif?raw=true)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Link to Live Site
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+https://palette-picker.netlify.com/
 
-### `npm test`
+## Built With
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* React
 
-### `npm run build`
+## Dependencies
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1.	Material UI (https://material-ui.com/) – Library for readily available React components
+2.	React Router (https://reacttraining.com/react-router/) – Page Transitions for routing to keep UI in sync with URL
+3.	React Color (https://casesandberg.github.io/react-color/) - Library for the color selector in the NewPaletteForm component
+4.	React Sortable (https://github.com/clauderic/react-sortable-hoc) – Library for drag and drop functionality in the palette creation component
+5.	Chroma JS (https://gka.github.io/chroma.js/) – Library to convert colors to wide array of formats. Used to help determine color bright/darkness
+6.	Emoji Mart (https://missive.github.io/emoji-mart/) – Library to select an emoji when saving a newly created palette
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get a local copy up and running follow these steps using your terminal.
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Clone the repo
+```sh
+git clone https://github.com/codewithsrobins1/palette-picker.git
+```
+2. Install NPM packages
+```sh
+npm install i
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## React Components
+* App.js – Renders the application. Contains the various routes
+*	Colorbox.js – The individual color box component with the links to ‘more’ and ‘copy’ within the Palette component
+*	ColorHelpers.js – Generate the palette colors
+*	ColorPickerForm.js - Component for the form within the drawer of the 'Create a Palette' page
+*	DraggableColorBox – Individual component for each of the moveable color boxes in the create a palette page
+*	DraggableColorList – Component for the colors that can be moved and rearranged within the Create a palette form
+*	Index.js -default index.js file
+*	MiniPalette.js – The mini color boxes displayed for each of the palettes
+*	NavBar.js – Navbar component with a link to go to home page, scroll for different shades of a color, and provide a color format in hexadecimal, rgb, and rgba
+*	NewPaletteForm.js – Main Component for Palette Creation Form
+*	Page.js – Component for the page transition between routes
+*	Palette.js – Main component with all the different palette colors. Also includes Nav and Footer
+*	PaletteFooter.js – Footer component with name of palette and emoji
+*	PaletteFormNav.js – Component for the navigation bar in the palette creation form
+*	PaletteList.js – The homepage component with the entire list of palettes.
+*	PaletteMetaForm.js – Modal component that pops up after hitting ‘Save Palette’ in the PaletteFormNav
+*	seedColors.js – Houses the default palette information
+*	SingleColorPalette.js – Individual palette component with all the different shades of 1 color
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Component Tree
 
-## Learn More
+To help visualize the structure of the components, please reference the below structure,
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# palette-picker
+- App.js
+  - NewPaletteForm.js
+    - seedColors.js
+    - PaletteFormNav.js
+      - PaletteMetaForm.js
+      
+  - ColorPickerForm.js
+  - DraggableColorList.js
+    - DraggableColorBox.js
+    
+  - PaletteList.js
+    - MiniPalette.js
+    
+  - Palette.js
+    - NavBar.js
+    - ColorBox.js
+      - Links to SingleColorPalette.js via props
+        - Uses colorHelper.js to generate shades of a color
+  - Page.js 
+  - PaletteList (Catch/Error Routing)
+  
+## Credit
+  * Final project from Colt Steele's 'The Modern React Bootcamp'
+  * https://www.udemy.com/share/101YTuBEQadlpVQHg=/
