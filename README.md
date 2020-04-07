@@ -8,7 +8,7 @@ Palette picker is a web application where users can view color schemes from a pr
 
 ## Link to Live Site
 
-
+https://palette-picker.netlify.com/
 
 ## Built With
 
