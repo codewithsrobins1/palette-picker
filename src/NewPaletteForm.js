@@ -54,7 +54,7 @@ class NewPaletteForm extends Component {
         //pick a random color from existing palette
         const allColors = this.props.palettes.map(p => p.colors).flat() //flat = create a new array wit hall sub-array elements
         let rand;
-        const randomColor = allColors[rand];
+        let randomColor = allColors[rand];
         let isDuplicateColor = true;
         //Eliminate Duplicate Colors From Palette Maker
         while (isDuplicateColor) {
