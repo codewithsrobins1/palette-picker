@@ -10,6 +10,12 @@ Palette picker is a web application where users can view color schemes from a pr
 
 https://palette-picker.netlify.com/
 
+## Objectives
+
+* See how a large React application is built
+* Understand how many components share information and pass props and state to each other
+* Implement different third parties libraries to implement features
+
 ## Built With
 
 * React
